@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javax.resource-api-1.7" type="ConnectorArchitecture">
+    <properties version="1.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
