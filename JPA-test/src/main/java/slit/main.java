@@ -13,7 +13,7 @@ class slit {
         EntityTransaction transaction = null;
         transaction = manager.getTransaction();
         transaction.begin();
-        Student test = new Student(41,"Hei", "Testveien 9");
+        Student test = new Student("javel", "sedetveien 9");
         manager.persist(test);
         transaction.commit();
         manager.close();

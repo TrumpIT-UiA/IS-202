@@ -6,12 +6,12 @@ import javax.persistence.*;
 public class Student {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int student_id;
     private String name;
     private String address;
 
-    public Student(int id, String name, String addr){
-        this.student_id = id;
+    public Student(String name, String addr){
         this.name = name;
         this.address = addr;
         }
