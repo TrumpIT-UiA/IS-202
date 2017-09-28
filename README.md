@@ -1,6 +1,6 @@
 # JPA-test
 
-Nødvedige rammeverk:
+Nødvendige rammeverk:
 Hibernate
 SQL Support
 Java persistence
