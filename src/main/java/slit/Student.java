@@ -3,7 +3,7 @@ package slit;
 import javax.persistence.*;
 
 @Entity
-public class Student {
+public class Student extends User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
